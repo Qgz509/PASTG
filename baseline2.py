@@ -373,7 +373,7 @@ def run_all():
     bars = plt.bar(labels, residuals, color=['#d62728', '#1f77b4'], width=0.4, alpha=0.9)
     plt.ylabel("Carbon Imbalance Residual (g/kWh)", fontweight='bold', fontsize=12)
     # 增加图表标题
-    plt.title("Trade-off Analysis: Physical Consistency Verification", fontweight='bold', fontsize=14)
+    plt.title("Residual Comparison", fontweight='bold', fontsize=14)
     plt.grid(axis='y', ls='--', alpha=0.7)
 
     # 遍历柱子，在顶部添加具体数值标签
